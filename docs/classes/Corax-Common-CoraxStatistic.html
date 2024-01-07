@@ -1,0 +1,2891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>Documentation</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/corax.html" class="">Corax</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/corax-common.html" class="">Common</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/corax-fuzz.html" class="">Fuzz</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/corax-instrument.html" class="">Instrument</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/corax.html">Corax</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/corax-common.html">Common</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    CoraxStatistic
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+        
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/Corax-Common-CoraxStatistic.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Corax-Common-CoraxStatistic.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_bad_req_count">$bad_req_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_bad_trans_count">$bad_trans_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_corpus_name">$corpus_name</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_blocks">$coverage_blocks</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_edges">$coverage_edges</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_input_file">$current_fuzzing_input_file</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_mutator">$current_fuzzing_mutator</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_parser">$current_fuzzing_parser</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_target">$current_fuzzing_target</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_value_len">$current_fuzzing_value_len</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_file">$current_tainting_hit_file</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_target">$current_tainting_hit_target</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hunter">$current_tainting_hunter</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_value_len">$current_tainting_value_len</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_vuln">$current_tainting_vuln</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_count">$cycle_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_time">$cycle_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_total">$cycle_total</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_cycles">$cycles</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_file">$dump_statistics_file</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_dump_statistics">$enable_dump_statistics</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_report">$enable_report</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_ui">$enable_ui</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_hit_time">$last_hit_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_path_time">$last_path_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_count">$last_sync_corpus_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_hash">$last_sync_corpus_hash</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_count">$last_sync_input_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_hash">$last_sync_input_hash</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_vuln_time">$last_vuln_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_processed_count">$processed_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_processed_payload_count">$processed_payload_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_recv_bytes">$recv_bytes</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_req_count">$req_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_sent_bytes">$sent_bytes</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_server_running_cpu">$server_running_cpu</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_shutdown_time">$shutdown_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_start_time">$start_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_total_blocks">$total_blocks</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_total_hit_tainted">$total_hit_tainted</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_total_input_fuzzed">$total_input_fuzzed</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_trans_count">$trans_count</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_trans_time">$trans_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_visited_blocks">$visited_blocks</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_cli_fuzz_report_template">$cli_fuzz_report_template</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_interval">$dump_statistics_interval</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_last_report_time">$last_report_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_next_dump_time">$next_dump_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_report_caches">$report_caches</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_start_cpu_time">$start_cpu_time</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#property_ui_fuzz_report_template">$ui_fuzz_report_template</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
+
+<h4 id="toc-methods">
+    Methods
+    <a href="classes/Corax-Common-CoraxStatistic.html#toc-methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_fuzz_report">corax_fuzz_report()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Report Corax status to terminal.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_instrument_report">corax_instrument_report()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_markdown_report">corax_markdown_report()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Generate markdown formation report for a vulnerability hit to a file.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_init">init()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Initialize corax statistic.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_start">start()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Start recording statistics.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_stop">stop()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+<dd>Stop recording statistics.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_build_request_text">build_request_text()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Build the raw http request text.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_build_response_text">build_response_text()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Build the raw http response text.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -private">
+    <a href="classes/Corax-Common-CoraxStatistic.html#method_num_unit_trans">num_unit_trans()</a>
+    <span>
+                                &nbsp;: string|int    </span>
+</dt>
+<dd>Transform number unit.</dd>
+
+    </dl>
+
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Corax-Common-CoraxStatistic.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_bad_req_count">
+        $bad_req_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_bad_req_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">93</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$bad_req_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_bad_trans_count">
+        $bad_trans_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_bad_trans_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">96</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$bad_trans_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_corpus_name">
+        $corpus_name
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_corpus_name" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">70</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$corpus_name</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_coverage_blocks">
+        $coverage_blocks
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_blocks" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">77</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$coverage_blocks</span>
+     = <span class="phpdocumentor-signature__default-value">-1</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_coverage_edges">
+        $coverage_edges
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_edges" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">76</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$coverage_edges</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_fuzzing_input_file">
+        $current_fuzzing_input_file
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_input_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">51</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_fuzzing_input_file</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_fuzzing_mutator">
+        $current_fuzzing_mutator
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_mutator" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_fuzzing_mutator</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_fuzzing_parser">
+        $current_fuzzing_parser
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_parser" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_fuzzing_parser</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_fuzzing_target">
+        $current_fuzzing_target
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_target" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_fuzzing_target</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_fuzzing_value_len">
+        $current_fuzzing_value_len
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_value_len" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">55</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_fuzzing_value_len</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_tainting_hit_file">
+        $current_tainting_hit_file
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">58</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_tainting_hit_file</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_tainting_hit_target">
+        $current_tainting_hit_target
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_target" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_tainting_hit_target</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_tainting_hunter">
+        $current_tainting_hunter
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hunter" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_tainting_hunter</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_tainting_value_len">
+        $current_tainting_value_len
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_value_len" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">62</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_tainting_value_len</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_current_tainting_vuln">
+        $current_tainting_vuln
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_vuln" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$current_tainting_vuln</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;N/A&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cycle_count">
+        $cycle_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$cycle_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cycle_time">
+        $cycle_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">45</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$cycle_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cycle_total">
+        $cycle_total
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_total" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$cycle_total</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cycles">
+        $cycles
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_cycles" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">44</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$cycles</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dump_statistics_file">
+        $dump_statistics_file
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_file" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$dump_statistics_file</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_enable_dump_statistics">
+        $enable_dump_statistics
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_dump_statistics" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">38</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$enable_dump_statistics</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_enable_report">
+        $enable_report
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_report" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$enable_report</span>
+     = <span class="phpdocumentor-signature__default-value">false</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_enable_ui">
+        $enable_ui
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_enable_ui" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$enable_ui</span>
+     = <span class="phpdocumentor-signature__default-value">true</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_hit_time">
+        $last_hit_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_hit_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">82</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_hit_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_path_time">
+        $last_path_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_path_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">75</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_path_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_sync_corpus_count">
+        $last_sync_corpus_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_sync_corpus_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_sync_corpus_hash">
+        $last_sync_corpus_hash
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_hash" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">72</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_sync_corpus_hash</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_sync_input_count">
+        $last_sync_input_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">66</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_sync_input_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_sync_input_hash">
+        $last_sync_input_hash
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_hash" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">67</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_sync_input_hash</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_vuln_time">
+        $last_vuln_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_vuln_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">87</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_vuln_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_processed_count">
+        $processed_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_processed_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">48</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$processed_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_processed_payload_count">
+        $processed_payload_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_processed_payload_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">86</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$processed_payload_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_recv_bytes">
+        $recv_bytes
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_recv_bytes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">91</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$recv_bytes</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_req_count">
+        $req_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_req_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">92</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$req_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sent_bytes">
+        $sent_bytes
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_sent_bytes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">90</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$sent_bytes</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_server_running_cpu">
+        $server_running_cpu
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_server_running_cpu" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">97</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$server_running_cpu</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_shutdown_time">
+        $shutdown_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_shutdown_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$shutdown_time</span>
+     = <span class="phpdocumentor-signature__default-value">PHP_INT_MAX</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_start_time">
+        $start_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_start_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$start_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_total_blocks">
+        $total_blocks
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_total_blocks" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">79</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$total_blocks</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_total_hit_tainted">
+        $total_hit_tainted
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_total_hit_tainted" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">83</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$total_hit_tainted</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_total_input_fuzzed">
+        $total_input_fuzzed
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_total_input_fuzzed" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">65</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$total_input_fuzzed</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_trans_count">
+        $trans_count
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_trans_count" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$trans_count</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_trans_time">
+        $trans_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_trans_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">94</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$trans_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_visited_blocks">
+        $visited_blocks
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_visited_blocks" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$visited_blocks</span>
+     = <span class="phpdocumentor-signature__default-value">[]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_cli_fuzz_report_template">
+        $cli_fuzz_report_template
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_cli_fuzz_report_template" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">103</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$cli_fuzz_report_template</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_dump_statistics_interval">
+        $dump_statistics_interval
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_interval" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">106</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$dump_statistics_interval</span>
+     = <span class="phpdocumentor-signature__default-value">-1</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_last_report_time">
+        $last_report_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_last_report_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">101</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$last_report_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_next_dump_time">
+        $next_dump_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_next_dump_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">105</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$next_dump_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_report_caches">
+        $report_caches
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_report_caches" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">104</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$report_caches</span>
+     = <span class="phpdocumentor-signature__default-value">null</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_start_cpu_time">
+        $start_cpu_time
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_start_cpu_time" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">100</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$start_cpu_time</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_ui_fuzz_report_template">
+        $ui_fuzz_report_template
+        <a href="classes/Corax-Common-CoraxStatistic.html#property_ui_fuzz_report_template" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">102</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$ui_fuzz_report_template</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span></code>
+
+    
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-methods">
+        <h3 class="phpdocumentor-elements__header" id="methods">
+            Methods
+            <a href="classes/Corax-Common-CoraxStatistic.html#methods" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_corax_fuzz_report">
+        corax_fuzz_report()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_fuzz_report" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">337</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Report Corax status to terminal.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">corax_fuzz_report</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxFuzzer.html"><abbr title="\Corax\Fuzz\CoraxFuzzer">CoraxFuzzer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fuzzer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fuzzer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxFuzzer.html"><abbr title="\Corax\Fuzz\CoraxFuzzer">CoraxFuzzer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The Corax fuzzer.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_corax_instrument_report">
+        corax_instrument_report()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_instrument_report" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">629</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">corax_instrument_report</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_corax_markdown_report">
+        corax_markdown_report()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_corax_markdown_report" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">641</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Generate markdown formation report for a vulnerability hit to a file.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">corax_markdown_report</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$report_name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxHit.html"><abbr title="\Corax\Fuzz\CoraxHit">CoraxHit</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hit</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxFuzzer.html"><abbr title="\Corax\Fuzz\CoraxFuzzer">CoraxFuzzer</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fuzzer</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$report_name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Report name.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$hit</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxHit.html"><abbr title="\Corax\Fuzz\CoraxHit">CoraxHit</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The hit to report.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fuzzer</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/Corax-Fuzz-CoraxFuzzer.html"><abbr title="\Corax\Fuzz\CoraxFuzzer">CoraxFuzzer</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The Corax fuzzer instance.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_init">
+        init()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_init" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">115</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Initialize corax statistic.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">init</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$enable_ui</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dump_statistics_interval</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">-1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shutdown_time</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$enable_ui</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Enable UI report mode. Defaults to true.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dump_statistics_interval</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">-1</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Time interval for dumping statistics. Defaults to -1.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$shutdown_time</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Corax will be shutdown after the seconds. Given null will disable this. Default sto null.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_start">
+        start()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_start" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">312</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Start recording statistics.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">start</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+    
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_stop">
+        stop()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_stop" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">323</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Stop recording statistics.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">stop</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shutdown</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$shutdown</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Enable totally shutdown CoraxStatistic, including stop dump statistic data
+to file. Defaults to false.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_build_request_text">
+        build_request_text()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_build_request_text" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1234</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Build the raw http request text.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">build_request_text</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$raw_input</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$raw_input</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The raw http input array.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The built http request text.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_build_response_text">
+        build_response_text()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_build_response_text" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1277</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Build the raw http response text.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">build_response_text</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$response</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$http_version</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;HTTP/1.1&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$response</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The raw http response array.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$http_version</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">&#039;HTTP/1.1&#039;</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The HTTP version of response. Defaults to &quot;HTTP/1.1&quot;.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The built http response text.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -private
+                                    -static                    "
+>
+    <h4 class="phpdocumentor-element__name" id="method_num_unit_trans">
+        num_unit_trans()
+        <a href="classes/Corax-Common-CoraxStatistic.html#method_num_unit_trans" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxStatistic.php"><a href="files/src-common-coraxstatistic.html"><abbr title="src/Common/CoraxStatistic.php">CoraxStatistic.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1295</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Transform number unit.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+            <span class="phpdocumentor-signature__static">static</span>        <span class="phpdocumentor-signature__name">num_unit_trans</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$num</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string|int</span></code>
+
+    <div class="phpdocumentor-label-line">
+        </div>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$num</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The number to transform.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string|int</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>The transformed number or string.</p>
+</section>
+
+            </section>
+
+</article>
+            </section>
+
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Common/CoraxStatistic.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#toc-properties">Properties</a></li>
+                                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#toc-methods">Methods</a></li>
+                                    </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_bad_req_count">$bad_req_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_bad_trans_count">$bad_trans_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_corpus_name">$corpus_name<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_blocks">$coverage_blocks<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_coverage_edges">$coverage_edges<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_input_file">$current_fuzzing_input_file<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_mutator">$current_fuzzing_mutator<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_parser">$current_fuzzing_parser<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_target">$current_fuzzing_target<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_fuzzing_value_len">$current_fuzzing_value_len<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_file">$current_tainting_hit_file<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hit_target">$current_tainting_hit_target<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_hunter">$current_tainting_hunter<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_value_len">$current_tainting_value_len<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_current_tainting_vuln">$current_tainting_vuln<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_count">$cycle_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_time">$cycle_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_cycle_total">$cycle_total<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_cycles">$cycles<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_file">$dump_statistics_file<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_enable_dump_statistics">$enable_dump_statistics<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_enable_report">$enable_report<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_enable_ui">$enable_ui<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_hit_time">$last_hit_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_path_time">$last_path_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_count">$last_sync_corpus_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_corpus_hash">$last_sync_corpus_hash<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_count">$last_sync_input_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_sync_input_hash">$last_sync_input_hash<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_vuln_time">$last_vuln_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_processed_count">$processed_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_processed_payload_count">$processed_payload_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_recv_bytes">$recv_bytes<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_req_count">$req_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_sent_bytes">$sent_bytes<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_server_running_cpu">$server_running_cpu<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_shutdown_time">$shutdown_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_start_time">$start_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_total_blocks">$total_blocks<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_total_hit_tainted">$total_hit_tainted<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_total_input_fuzzed">$total_input_fuzzed<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_trans_count">$trans_count<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_trans_time">$trans_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_visited_blocks">$visited_blocks<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_cli_fuzz_report_template">$cli_fuzz_report_template<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_dump_statistics_interval">$dump_statistics_interval<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_last_report_time">$last_report_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_next_dump_time">$next_dump_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_report_caches">$report_caches<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_start_cpu_time">$start_cpu_time<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxStatistic.html#property_ui_fuzz_report_template">$ui_fuzz_report_template<a href="classes/Corax-Common-CoraxStatistic.html"></li>
+                                            </ul>
+                </li>
+            
+                        <li class="phpdocumentor-on-this-page-section__title">Methods</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_corax_fuzz_report">corax_fuzz_report()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_corax_instrument_report">corax_instrument_report()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_corax_markdown_report">corax_markdown_report()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_init">init()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_start">start()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_stop">stop()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_build_request_text">build_request_text()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_build_response_text">build_response_text()</a></li>
+                                            <li><a href="classes/Corax-Common-CoraxStatistic.html#method_num_unit_trans">num_unit_trans()</a></li>
+                                    </ul>
+            </li>
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/Corax-Common-CoraxStatistic.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

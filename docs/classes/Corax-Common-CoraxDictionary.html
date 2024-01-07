@@ -1,0 +1,1241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>Documentation</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="../">
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">Documentation</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/corax.html" class="">Corax</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/corax-common.html" class="">Common</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/corax-fuzz.html" class="">Fuzz</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/corax-instrument.html" class="">Instrument</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                <section>
+                                        <ul class="phpdocumentor-breadcrumbs">
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/corax.html">Corax</a></li>
+            <li class="phpdocumentor-breadcrumb"><a href="namespaces/corax-common.html">Common</a></li>
+    </ul>
+
+    <article class="phpdocumentor-element -class">
+        <h2 class="phpdocumentor-content__title">
+    CoraxDictionary
+
+    
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
+    
+    
+    </h2>
+
+<div class="phpdocumentor-label-line">
+
+    <div class="phpdocumentor-label phpdocumentor-label--success"><span>Final</span><span>Yes</span></div>
+
+
+</div>
+
+        <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">31</span>
+
+    </aside>
+
+        
+
+
+
+
+
+<h3 id="toc">
+    Table of Contents
+    <a href="classes/Corax-Common-CoraxDictionary.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+
+
+
+
+
+
+
+
+<h4 id="toc-properties">
+    Properties
+    <a href="classes/Corax-Common-CoraxDictionary.html#toc-properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_command_names">$command_names</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_command_spaces">$command_spaces</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_command_splits">$command_splits</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_command_truncates">$command_truncates</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_context_types">$context_types</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_errors">$errors</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_file_exts">$file_exts</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_hex_file_headers">$hex_file_headers</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_html_attrs">$html_attrs</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_html_paired_tags">$html_paired_tags</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_html_single_tags">$html_single_tags</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_http_protocol">$http_protocol</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_js_events">$js_events</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_quotes">$quotes</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_signals">$signals</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_space_chars">$space_chars</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_special_chars">$special_chars</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_special_numbers">$special_numbers</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_sql_chars">$sql_chars</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_sql_keywords">$sql_keywords</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_status_code_msg">$status_code_msg</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_xss_chars">$xss_chars</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -public">
+    <a href="classes/Corax-Common-CoraxDictionary.html#property_xss_keywords">$xss_keywords</a>
+    <span>
+                        &nbsp;: mixed            </span>
+</dt>
+
+    </dl>
+
+
+
+
+
+        
+
+        
+    <section class="phpdocumentor-properties">
+        <h3 class="phpdocumentor-elements__header" id="properties">
+            Properties
+            <a href="classes/Corax-Common-CoraxDictionary.html#properties" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_command_names">
+        $command_names
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_command_names" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">182</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$command_names</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;whoami&#039;, &#039;cat&#039;, &#039;uid&#039;, &#039;ls&#039;, &#039;ping&#039;, &#039;curl&#039;, &#039;cd&#039;, &#039;dir&#039;, &#039;type&#039;, &#039;touch&#039;, &#039;more&#039;, &#039;less&#039;, &#039;head&#039;, &#039;tail&#039;, &#039;sleep&#039;, &#039;rev&#039;, &#039;sh&#039;, &#039;bash&#039;, &#039;diff&#039;, &#039;nl&#039;, &#039;uniq&#039;, &#039;file&#039;, &#039;echo&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_command_spaces">
+        $command_spaces
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_command_spaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">181</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$command_spaces</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039; &#039;, &quot;\t&quot;, &quot;\r&quot;, &quot;\n&quot;, &#039;${IFS}&#039;, &#039;$IFS$9&#039;, &#039;,&#039;, &#039;&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_command_splits">
+        $command_splits
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_command_splits" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$command_splits</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;&quot;&quot;&#039;, &#039;\&#039;\&#039;&#039;, &#039;\\&#039;, &#039;$9&#039;, &#039;${not_exists}&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_command_truncates">
+        $command_truncates
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_command_truncates" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">188</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$command_truncates</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;;&#039;, &#039;|&#039;, &#039;&amp;&#039;, &#039;&amp;&amp;&#039;, &#039;||&#039;, &quot;\r\n&quot;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_context_types">
+        $context_types
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_context_types" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$context_types</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;application/x-cals&#039;, &#039;application/x-bot&#039;, &#039;application/x-hgl&#039;, &#039;video/x-ms-wmx&#039;, &#039;application/x-cit&#039;, &#039;application/postscript&#039;, &#039;application/x-pc5&#039;, &#039;image/png&#039;, &#039;application/x-x509-ca-cert&#039;, &#039;application/x-dbx&#039;, &#039;application/pics-rules&#039;, &#039;video/x-ms-wvx&#039;, &#039;text/plain&#039;, &#039;audio/vnd.rn-realaudio&#039;, &#039;application/sdp&#039;, &#039;application/x-plt&#039;, &#039;video/vnd.rn-realvideo&#039;, &#039;message/rfc822&#039;, &#039;application/vnd.iphone&#039;, &#039;application/vnd.adobetext/xml&#039;, &#039;audio/x-musicnet-download&#039;, &#039;application/x-wpg&#039;, &#039;application/vnd.rn-realsystem-rmx&#039;, &#039;application/vnd.adobeapplication/vnd.adobe.xfdf&#039;, &#039;application/vnd.rn-realmedia-vbr&#039;, &#039;application/x-tdf&#039;, &#039;application/x-gl2&#039;, &#039;application/x-ws&#039;, &#039;application/x-sam&#039;, &#039;application/x-iff&#039;, &#039;audio/x-pn-realaudio&#039;, &#039;application/x-vsd&#039;, &#039;application/x-ltr&#039;, &#039;application/x-x_t&#039;, &#039;application/msaccess&#039;, &#039;application/x-pcl&#039;, &#039;application/x-mi&#039;, &#039;application/x-red&#039;, &#039;application/x-pci&#039;, &#039;text/css&#039;, &#039;application/x-sat&#039;, &#039;application/vnd.rn-realsystem-rmj&#039;, &#039;application/x-tg4&#039;, &#039;application/x-prn&#039;, &#039;application/vnd.rn-realsystem-rjt&#039;, &#039;application/x-netcdf&#039;, &#039;application/x-stuffit&#039;, &#039;application/vnd.fdf&#039;, &#039;text/html&#039;, &#039;Model/vndapplication/x-dwf&#039;, &#039;application/x-hmr&#039;, &#039;application/vnd.adobe.rmf&#039;, &#039;application/pkcs10&#039;, &#039;audio/mid&#039;, &#039;application/vndapplication/vnd.visio&#039;, &#039;application/vnd.ms-project&#039;, &#039;application/x-ms-wmz&#039;, &#039;application/vnd.adobeapplication/x-pkcs12&#039;, &#039;application/x-ico&#039;, &#039;text/xml&#039;, &#039;application/x-wb3&#039;, &#039;application/x-wb1&#039;, &#039;audio/x-liquid-file&#039;, &#039;application/x-dxb&#039;, &#039;application/x-bmp&#039;, &#039;application/x-emf&#039;, &#039;application/x-icb&#039;, &#039;audio/x-mei-aac&#039;, &#039;application/vnd.adobe.workflow&#039;, &#039;application/x-c4t&#039;, &#039;application/x-dgn&#039;, &#039;audio/x-musicnet-stream&#039;, &#039;application/vnd.visio&#039;, &#039;application/x-icq&#039;, &#039;application/x-wk4&#039;, &#039;application/x-wk3&#039;, &#039;audio/scpls&#039;, &#039;application/x-shockwave-flash&#039;, &#039;application/x-wp6&#039;, &#039;application/x-png&#039;, &#039;image/fax&#039;, &#039;application/streamingmedia&#039;, &#039;application/x-001&#039;, &#039;application/vnd.symbian.install&#039;, &#039;audio/x-ms-wax&#039;, &#039;application/x-g4&#039;, &#039;video/mpg&#039;, &#039;application/x-jpe&#039;, &#039;application/x-mmxp&#039;, &#039;application/x-dwg&#039;, &#039;application/x-bittorrent&#039;, &#039;application/pkcs7-feature&#039;, &#039;image/pnetvue&#039;, &#039;video/x-ms-asf&#039;, &#039;application/x-ps&#039;, &#039;audio/aiff&#039;, &#039;application/x-&#039;, &#039;application/x-pr&#039;, &#039;application/octet-stream&#039;, &#039;application/x-sty&#039;, &#039;application/x-ras&#039;, &#039;video/x-mpg&#039;, &#039;application/x-gp4&#039;, &#039;application/x-x_b&#039;, &#039;application/vnd.ms-wpl&#039;, &#039;application/x-wks&#039;, &#039;application/x-troff-man&#039;, &#039;application/x-wkq&#039;, &#039;application/vnd.ms-pkitext/html&#039;, &#039;application/vnd.ms-pki.certstore&#039;, &#039;audio/x-la-lms&#039;, &#039;text/vnd.rn-realtext3d&#039;, &#039;audio/x-pn-realaudio-plugin&#039;, &#039;application/x-internet-signup&#039;, &#039;application/x-hpl&#039;, &#039;application/x-anv&#039;, &#039;image/vnd.rn-realpix&#039;, &#039;application/x-ptn&#039;, &#039;application/x-img&#039;, &#039;application/vnd.android.package-archive&#039;, &#039;application/x-prt&#039;, &#039;application/x-cmx&#039;, &#039;application/x-wpd&#039;, &#039;application/x-drw&#039;, &#039;application/x-906&#039;, &#039;text/x-ms-odc&#039;, &#039;application/vnd.rn-rsml&#039;, &#039;video/x-ms-wm&#039;, &#039;text/scriptlet&#039;, &#039;video/mpeg4&#039;, &#039;application/x-frm&#039;, &#039;audio/wav&#039;, &#039;application/x-cut&#039;, &#039;text/x-component&#039;, &#039;application/x-dib&#039;, &#039;application/x-laplayer-reg&#039;, &#039;video/avi&#039;, &#039;application/pdf&#039;, &#039;text/iuls&#039;, &#039;text/asa&#039;, &#039;application/x-nrf&#039;, &#039;application/x-rtf&#039;, &#039;application/vnd.rn-realsystem-rjs&#039;, &#039;application/hta&#039;, &#039;application/x-out&#039;, &#039;application/x-a11&#039;, &#039;text/h323&#039;, &#039;application/x-mac&#039;, &#039;drawing/x-slk&#039;, &#039;application/x-msdownload&#039;, &#039;image/gif&#039;, &#039;application/x-smk&#039;, &#039;application/x-mdb&#039;, &#039;application/x-vda&#039;, &#039;application/x-pkcs7-certreqresp&#039;, &#039;application/x-cmp&#039;, &#039;application/pkcs7-mime&#039;, &#039;application/x-mil&#039;, &#039;image/tiff&#039;, &#039;application/x-pkcs12&#039;, &#039;application/vnd.rn-realmedia-secure&#039;, &#039;application/x-rgb&#039;, &#039;application/vnd.ms-powerpoint&#039;, &#039;application/vnd.adobe.edn&#039;, &#039;application/x-wq1&#039;, &#039;text/vnd.wap.wml&#039;, &#039;application/x-javascript&#039;, &#039;text/vnd.rn-realtext&#039;, &#039;application/x-dxf&#039;, &#039;application/x-pgl&#039;, &#039;application/vnd.rn-recording&#039;, &#039;application/rat-file&#039;, &#039;application/x-lbm&#039;, &#039;application/x-sdw&#039;, &#039;application/x-hrf&#039;, &#039;application/x-wri&#039;, &#039;application/x-wrk&#039;, &#039;image/x-icon&#039;, &#039;text/asp&#039;, &#039;video/mpeg&#039;, &#039;video/x-mpeg&#039;, &#039;application/x-latex&#039;, &#039;application/x-tga&#039;, &#039;audio/basic&#039;, &#039;application/x-csi&#039;, &#039;application/x-wmf&#039;, &#039;application/mac-binhex40&#039;, &#039;java/*&#039;, &#039;audio/x-ms-wma&#039;, &#039;image/jpeg&#039;, &#039;application/fractals&#039;, &#039;application/pkix-crl&#039;, &#039;drawing/x-top&#039;, &#039;application/x-epi&#039;, &#039;application/x-igs&#039;, &#039;application/x-xwd&#039;, &#039;application/vnd.rn-realplayer&#039;, &#039;application/x-iphone&#039;, &#039;application/x-wr1&#039;, &#039;application/x-pcx&#039;, &#039;application/x-xls&#039;, &#039;application/x-301&#039;, &#039;application/x-xlw&#039;, &#039;application/x-ms-wmd&#039;, &#039;audio/mpegurl&#039;, &#039;application/futuresplash&#039;, &#039;image/vnd.wap.wbmp&#039;, &#039;audio/mp3&#039;, &#039;audio/mp2&#039;, &#039;audio/mp1&#039;, &#039;application/x-rlc&#039;, &#039;video/x-ivf&#039;, &#039;application/x-dcx&#039;, &#039;audio/x-liquid-secure&#039;, &#039;application/vnd.ms-excel&#039;, &#039;application/x-cgm&#039;, &#039;application/x-cot&#039;, &#039;application/smil&#039;, &#039;video/x-sgi-movie&#039;, &#039;application/x-ppm&#039;, &#039;application/x-vpeg005&#039;, &#039;video/x-ms-wmv&#039;, &#039;application/x-pkcs7-certificates&#039;, &#039;application/x-gbr&#039;, &#039;application/x-cel&#039;, &#039;application/x-wb2&#039;, &#039;text/x-vcard&#039;, &#039;application/vndtext/xml&#039;, &#039;application/x-silverlight-app&#039;, &#039;application/vnd.rn-rn_music_package&#039;, &#039;application/x-cdr&#039;, &#039;application/x-dbf&#039;, &#039;application/vnd.ms-pki.seccat&#039;, &#039;drawing/907&#039;, &#039;application/x-jpg&#039;, &#039;application/x-dbm&#039;, &#039;application/x-tif&#039;, &#039;application/x-rle&#039;, &#039;application/vnd.ms-pkiapplication/x-perl&#039;, &#039;application/x-ppt&#039;, &#039;application/vndapplication/x-vst&#039;, &#039;application/vnd.rn-realmedia&#039;, &#039;application/x-c90&#039;, &#039;text/webviewhtml&#039;, &#039;application/x-slb&#039;, &#039;application/x-ebx&#039;, &#039;application/msword&#039;, &#039;audio/rn-mpeg&#039;, &#039;application/x-pic&#039;, &#039;application/x-sld&#039;, &#039;application/x-hpgl&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_errors">
+        $errors
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_errors" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$errors</span>
+     = <span class="phpdocumentor-signature__default-value">[E_ERROR =&gt; &#039;Error&#039;, E_WARNING =&gt; &#039;Warning&#039;, E_PARSE =&gt; &#039;Parse&#039;, E_NOTICE =&gt; &#039;Notice&#039;, E_USER_ERROR =&gt; &#039;UserError&#039;, E_USER_WARNING =&gt; &#039;UserWarning&#039;, E_USER_NOTICE =&gt; &#039;UserNotice&#039;, E_STRICT =&gt; &#039;Script&#039;, E_RECOVERABLE_ERROR =&gt; &#039;RecoverableError&#039;, E_DEPRECATED =&gt; &#039;Deprecated&#039;, E_USER_DEPRECATED =&gt; &#039;UserDeprecated&#039;, E_ALL =&gt; &#039;All&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_file_exts">
+        $file_exts
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_file_exts" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">127</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$file_exts</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;php&#039;, &#039;php3&#039;, &#039;php4&#039;, &#039;php5&#039;, &#039;php2&#039;, &#039;html&#039;, &#039;htm&#039;, &#039;phtml&#039;, &#039;pht&#039;, &#039;jsp&#039;, &#039;jspa&#039;, &#039;jspx&#039;, &#039;jsw&#039;, &#039;jsv&#039;, &#039;jspf&#039;, &#039;jtml&#039;, &#039;asp&#039;, &#039;aspx&#039;, &#039;asa&#039;, &#039;asax&#039;, &#039;ascx&#039;, &#039;ashx&#039;, &#039;asmx&#039;, &#039;cer&#039;, &#039;swf&#039;, &#039;htaccess&#039;, &#039;ini&#039;, &#039;png&#039;, &#039;jpg&#039;, &#039;gif&#039;, &#039;jpeg&#039;, &#039;txt&#039;, &#039;doc&#039;, &#039;pdf&#039;, &#039;mp3&#039;, &#039;mp4&#039;, &#039;docx&#039;, &#039;m4a&#039;, &#039;jar&#039;, &#039;xml&#039;, &#039;xlm&#039;, &#039;iso&#039;, &#039;bin&#039;, &#039;zip&#039;, &#039;rar&#039;, &#039;arj&#039;, &#039;z&#039;, &#039;7z&#039;, &#039;phar&#039;, &#039;py&#039;, &#039;c&#039;, &#039;go&#039;, &#039;css&#039;, &#039;js&#039;, &#039;class&#039;, &#039;rb&#039;, &quot;php\x00.jpg&quot;, &quot;php\x00.png&quot;, &quot;php\x00.gif&quot;, &#039;gif.php&#039;, &#039;pdf.php&#039;, &#039;jpg.php&#039;, &#039;zip.php&#039;, &#039;mp3.php&#039;, &#039;sh&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_hex_file_headers">
+        $hex_file_headers
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_hex_file_headers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">121</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$hex_file_headers</span>
+     = <span class="phpdocumentor-signature__default-value">[&quot;\xff\xd8\xff\xe1&quot;, &quot;\x89PNG&quot;, &quot;GIF8&quot;, &quot;II*\x00&quot;, &quot;BM\xc0\x01&quot;, &quot;PK\x03\x04&quot;, &quot;Rar!&quot;, &quot;8BPS&quot;, &quot;{\\rtf&quot;, &quot;&lt;?xml&quot;, &quot;%PDF-1.&quot;, &quot;WAVE&quot;, &quot;M&lt;+\x1a&quot;, &quot;AC10&quot;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_html_attrs">
+        $html_attrs
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_html_attrs" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">161</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$html_attrs</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;href&#039;, &#039;lowsrc&#039;, &#039;background&#039;, &#039;bgsound&#039;, &#039;action&#039;, &#039;dynsrc&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_html_paired_tags">
+        $html_paired_tags
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_html_paired_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">149</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$html_paired_tags</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;code&#039;, &#039;kbd&#039;, &#039;tbody&#039;, &#039;font&#039;, &#039;noscript&#039;, &#039;style&#039;, &#039;title&#039;, &#039;menu&#039;, &#039;tt&#039;, &#039;tr&#039;, &#039;li&#039;, &#039;source&#039;, &#039;tfoot&#039;, &#039;th&#039;, &#039;td&#039;, &#039;main&#039;, &#039;dl&#039;, &#039;blockquote&#039;, &#039;fieldset&#039;, &#039;big&#039;, &#039;dd&#039;, &#039;meter&#039;, &#039;optgroup&#039;, &#039;dt&#039;, &#039;button&#039;, &#039;summary&#039;, &#039;p&#039;, &#039;small&#039;, &#039;output&#039;, &#039;div&#039;, &#039;dir&#039;, &#039;em&#039;, &#039;datalist&#039;, &#039;frame&#039;, &#039;video&#039;, &#039;rt&#039;, &#039;canvas&#039;, &#039;rp&#039;, &#039;sub&#039;, &#039;bdo&#039;, &#039;bdi&#039;, &#039;label&#039;, &#039;template&#039;, &#039;sup&#039;, &#039;progress&#039;, &#039;body&#039;, &#039;acronym&#039;, &#039;base&#039;, &#039;address&#039;, &#039;article&#039;, &#039;strong&#039;, &#039;legend&#039;, &#039;ol&#039;, &#039;caption&#039;, &#039;s&#039;, &#039;dialog&#039;, &#039;h1&#039;, &#039;h6&#039;, &#039;header&#039;, &#039;table&#039;, &#039;select&#039;, &#039;noframes&#039;, &#039;span&#039;, &#039;script&#039;, &#039;mark&#039;, &#039;dfn&#039;, &#039;strike&#039;, &#039;cite&#039;, &#039;thead&#039;, &#039;head&#039;, &#039;option&#039;, &#039;form&#039;, &#039;hr&#039;, &#039;var&#039;, &#039;ruby&#039;, &#039;b&#039;, &#039;colgroup&#039;, &#039;ul&#039;, &#039;applet&#039;, &#039;del&#039;, &#039;iframe&#039;, &#039;pre&#039;, &#039;frameset&#039;, &#039;figure&#039;, &#039;ins&#039;, &#039;aside&#039;, &#039;html&#039;, &#039;nav&#039;, &#039;details&#039;, &#039;u&#039;, &#039;samp&#039;, &#039;map&#039;, &#039;track&#039;, &#039;object&#039;, &#039;figcaption&#039;, &#039;a&#039;, &#039;center&#039;, &#039;textarea&#039;, &#039;footer&#039;, &#039;i&#039;, &#039;q&#039;, &#039;command&#039;, &#039;time&#039;, &#039;audio&#039;, &#039;section&#039;, &#039;abbr&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_html_single_tags">
+        $html_single_tags
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_html_single_tags" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">145</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$html_single_tags</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;input&#039;, &#039;img&#039;, &#039;isindex&#039;, &#039;area&#039;, &#039;base&#039;, &#039;basefont&#039;, &#039;bgsound&#039;, &#039;col&#039;, &#039;embed&#039;, &#039;keygen&#039;, &#039;link&#039;, &#039;meta&#039;, &#039;nextid&#039;, &#039;param&#039;, &#039;wbr&#039;, &#039;br&#039;, &#039;plaintext&#039;, &#039;spacer&#039;, &#039;frame&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_http_protocol">
+        $http_protocol
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_http_protocol" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">179</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$http_protocol</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;http&#039;, &#039;https&#039;, &#039;php&#039;, &#039;zlib&#039;, &#039;data&#039;, &#039;glob&#039;, &#039;phar&#039;, &#039;ssh2&#039;, &#039;rar&#039;, &#039;ogg&#039;, &#039;expect&#039;, &#039;data&#039;, &#039;ftp&#039;, &#039;dict&#039;, &#039;gopher&#039;, &#039;file&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_js_events">
+        $js_events
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_js_events" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">164</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$js_events</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;onloadeddata&#039;, &#039;ontoggle&#039;, &#039;onwaiting&#039;, &#039;onredo&#039;, &#039;onerror&#039;, &#039;onprogress&#039;, &#039;ondragenter&#039;, &#039;onreset&#039;, &#039;onended&#039;, &#039;onplay&#039;, &#039;onmousedown&#039;, &#039;onforminput&#039;, &#039;onsubmit&#039;, &#039;onpause&#039;, &#039;onmousewheel&#039;, &#039;onchange&#039;, &#039;onafterprint&#039;, &#039;oninvalid&#039;, &#039;onloadstart&#039;, &#039;onabort&#039;, &#039;onload&#039;, &#039;oninput&#039;, &#039;onmouseout&#039;, &#039;ondragover&#039;, &#039;onsuspend&#039;, &#039;ontimeupdate&#039;, &#039;onratechange&#039;, &#039;onkeypress&#039;, &#039;ondragleave&#039;, &#039;onresize&#039;, &#039;onselect&#039;, &#039;onmousemove&#039;, &#039;onclick&#039;, &#039;onundo&#039;, &#039;onemptied&#039;, &#039;onfocus&#039;, &#039;ondrag&#039;, &#039;oncanplay&#039;, &#039;onstorage&#039;, &#039;onformchange&#039;, &#039;onblur&#039;, &#039;onhashchange&#039;, &#039;ondragstart&#039;, &#039;onoffline&#039;, &#039;ondrop&#039;, &#039;onbeforeonload&#039;, &#039;ononline&#039;, &#039;onkeydown&#039;, &#039;onpageshow&#039;, &#039;onvolumechange&#039;, &#039;onmouseover&#039;, &#039;onpopstate&#039;, &#039;oncontextmenu&#039;, &#039;onscroll&#039;, &#039;onunload&#039;, &#039;onloadedmetadata&#039;, &#039;ondragend&#039;, &#039;onshow&#039;, &#039;onseeking&#039;, &#039;onbeforeprint&#039;, &#039;oncanplaythrough&#039;, &#039;ondurationchange&#039;, &#039;onpagehide&#039;, &#039;onmouseup&#039;, &#039;onkeyup&#039;, &#039;onmessage&#039;, &#039;onplaying&#039;, &#039;ondblclick&#039;, &#039;onseeked&#039;, &#039;onreadystatechange&#039;, &#039;onstalled&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_quotes">
+        $quotes
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_quotes" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">177</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$quotes</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;\&#039;&#039;, &#039;&quot;&#039;, &#039;&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_signals">
+        $signals
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_signals" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$signals</span>
+     = <span class="phpdocumentor-signature__default-value">[SIGHUP =&gt; &#039;SIGHUP&#039;, SIGINT =&gt; &#039;SIGINT&#039;, SIGQUIT =&gt; &#039;SIGQUIT&#039;, SIGILL =&gt; &#039;SIGILL&#039;, SIGABRT =&gt; &#039;SIGABRT&#039;, SIGSEGV =&gt; &#039;SIGSEGV&#039;, SIGPIPE =&gt; &#039;SIGPIPE&#039;, SIGALRM =&gt; &#039;SIGALRM&#039;, SIGTERM =&gt; &#039;SIGTERM&#039;, SIGSTKFLT =&gt; &#039;SIGSTKFLT&#039;, SIGTSTP =&gt; &#039;SITSTP&#039;, SIGTTIN =&gt; &#039;SIGTTIN&#039;, SIGTTOU =&gt; &#039;SIGTTOUT&#039;, SIGVTALRM =&gt; &#039;SIGVTALRM&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_space_chars">
+        $space_chars
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_space_chars" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">142</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$space_chars</span>
+     = <span class="phpdocumentor-signature__default-value">&quot;\x00\x01\x02\x03\x04\x05\x06\x07\x08\t\n\v\f\r\x0e\x0f\x10\x11\x12\x13&quot; . &quot;\x14\x15\x16\x17\x18\x19 \x1a\x1b\x1c\x1d\x1f&quot;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_special_chars">
+        $special_chars
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_special_chars" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">141</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$special_chars</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;!@#$%^&amp;*()_+=`~{}|[]\\:&quot;;\&#039;,./&lt;&gt;?&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_special_numbers">
+        $special_numbers
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_special_numbers" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">136</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$special_numbers</span>
+     = <span class="phpdocumentor-signature__default-value">[0, -1, -127, 128, -254, 255, -1023, 1024, 32767, -32768, -65536, 65535, -2147483648, 2147483647, 9223372036854775807, -9.223372036854776E+18, 4.940656458412465E-324, 1.7976931348623157E+308, 1.4E-45, 3.4028235E+38, 1.0E-7]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sql_chars">
+        $sql_chars
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_sql_chars" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">190</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$sql_chars</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;\&#039;&quot;?&amp;*%_ `|^~&lt;&gt;=,()\\;#-&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_sql_keywords">
+        $sql_keywords
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_sql_keywords" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">193</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$sql_keywords</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;select&#039;, &#039;from&#039;, &#039;union&#039;, &#039;into&#039;, &#039;and&#039;, &#039;or&#039;, &#039;update&#039;, &#039;delete&#039;, &#039;create&#039;, &#039;where&#039;, &#039;order&#039;, &#039;group&#039;, &#039;by&#039;, &#039;join&#039;, &#039;outfile&#039;, &#039;dumpfile&#039;, &#039;load_file&#039;, &#039;xp_cmdshell&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_status_code_msg">
+        $status_code_msg
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_status_code_msg" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$status_code_msg</span>
+     = <span class="phpdocumentor-signature__default-value">[100 =&gt; &quot;Continue&quot;, 101 =&gt; &quot;Switching Protocols&quot;, 200 =&gt; &quot;OK&quot;, 201 =&gt; &quot;Created&quot;, 202 =&gt; &quot;Accepted&quot;, 203 =&gt; &quot;Non-Authoritative Information&quot;, 204 =&gt; &quot;No Content&quot;, 205 =&gt; &quot;Reset Content&quot;, 206 =&gt; &quot;Partial Content&quot;, 300 =&gt; &quot;Multiple Choices&quot;, 301 =&gt; &quot;Moved Permanently&quot;, 302 =&gt; &quot;Found&quot;, 303 =&gt; &quot;See Other&quot;, 304 =&gt; &quot;Not Modified&quot;, 305 =&gt; &quot;Use Proxy&quot;, 306 =&gt; &quot;(Unused)&quot;, 307 =&gt; &quot;Temporary Redirect&quot;, 400 =&gt; &quot;Bad Request&quot;, 401 =&gt; &quot;Unauthorized&quot;, 402 =&gt; &quot;Payment Required&quot;, 403 =&gt; &quot;Forbidden&quot;, 404 =&gt; &quot;Not Found&quot;, 405 =&gt; &quot;Method Not Allowed&quot;, 406 =&gt; &quot;Not Acceptable&quot;, 407 =&gt; &quot;Proxy Authentication Required&quot;, 408 =&gt; &quot;Request Timeout&quot;, 409 =&gt; &quot;Conflict&quot;, 410 =&gt; &quot;Gone&quot;, 411 =&gt; &quot;Length Required&quot;, 412 =&gt; &quot;Precondition Failed&quot;, 413 =&gt; &quot;Request Entity Too Large&quot;, 414 =&gt; &quot;Request-URI Too Long&quot;, 415 =&gt; &quot;Unsupported Media Type&quot;, 416 =&gt; &quot;Requested Range Not Satisfiable&quot;, 417 =&gt; &quot;Expectation Failed&quot;, 500 =&gt; &quot;Internal Server Error&quot;, 501 =&gt; &quot;Not Implemented&quot;, 502 =&gt; &quot;Bad Gateway&quot;, 503 =&gt; &quot;Service Unavailable&quot;, 504 =&gt; &quot;Gateway Timeout&quot;, 505 =&gt; &quot;HTTP Version Not Supported&quot;]</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_xss_chars">
+        $xss_chars
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_xss_chars" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">191</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$xss_chars</span>
+     = <span class="phpdocumentor-signature__default-value">&#039;&lt;&gt;(),\&#039;&quot;=%&amp;#&#039;</span></code>
+
+    
+    
+    
+
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -public
+            -static                                            "
+>
+    <h4 class="phpdocumentor-element__name" id="property_xss_keywords">
+        $xss_keywords
+        <a href="classes/Corax-Common-CoraxDictionary.html#property_xss_keywords" class="headerlink"><i class="fas fa-link"></i></a>
+
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/Common/CoraxDictionary.php"><a href="files/src-common-coraxdictionary.html"><abbr title="src/Common/CoraxDictionary.php">CoraxDictionary.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">197</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__static">static</span>    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">$xss_keywords</span>
+     = <span class="phpdocumentor-signature__default-value">[&#039;script&#039;, &#039;alert&#039;, &#039;src&#039;, &#039;onerror&#039;, &#039;img&#039;, &#039;a&#039;, &#039;href&#039;]</span></code>
+
+    
+    
+    
+
+</article>
+            </section>
+
+        
+        <div class="phpdocumentor-modal" id="source-view">
+    <div class="phpdocumentor-modal-bg" data-exit-button></div>
+    <div class="phpdocumentor-modal-container">
+        <div class="phpdocumentor-modal-content">
+            <pre style="max-height: 500px; overflow-y: scroll" data-src="files/src/Common/CoraxDictionary.php.txt" class="language-php line-numbers linkable-line-numbers"></pre>
+        </div>
+        <button data-exit-button class="phpdocumentor-modal__close">&times;</button>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        (function () {
+            function loadExternalCodeSnippet(el, url, line) {
+                Array.prototype.slice.call(el.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                    const src = url || pre.getAttribute('data-src').replace(/\\/g, '/');
+                    const language = 'php';
+
+                    const code = document.createElement('code');
+                    code.className = 'language-' + language;
+                    pre.textContent = '';
+                    pre.setAttribute('data-line', line)
+                    code.textContent = 'Loading…';
+                    pre.appendChild(code);
+
+                    var xhr = new XMLHttpRequest();
+
+                    xhr.open('GET', src, true);
+
+                    xhr.onreadystatechange = function () {
+                        if (xhr.readyState !== 4) {
+                            return;
+                        }
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+                            Prism.highlightElement(code);
+                            return;
+                        }
+
+                        if (xhr.status === 404) {
+                            code.textContent = '✖ Error: File could not be found';
+                            return;
+                        }
+
+                        if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                            return;
+                        }
+
+                        code.textContent = '✖ Error: An unknown error occurred';
+                    };
+
+                    xhr.send(null);
+                });
+            }
+
+            const modalButtons = document.querySelectorAll("[data-modal]");
+            const openedAsLocalFile = window.location.protocol === 'file:';
+            if (modalButtons.length > 0 && openedAsLocalFile) {
+                console.warn(
+                    'Viewing the source code is unavailable because you are opening this page from the file:// scheme; ' +
+                    'browsers block XHR requests when a page is opened this way'
+                );
+            }
+
+            modalButtons.forEach(function (trigger) {
+                if (openedAsLocalFile) {
+                    trigger.setAttribute("hidden", "hidden");
+                }
+
+                trigger.addEventListener("click", function (event) {
+                    event.preventDefault();
+                    const modal = document.getElementById(trigger.dataset.modal);
+                    if (!modal) {
+                        console.error(`Modal with id "${trigger.dataset.modal}" could not be found`);
+                        return;
+                    }
+                    modal.classList.add("phpdocumentor-modal__open");
+
+                    loadExternalCodeSnippet(modal, trigger.dataset.src || null, trigger.dataset.line)
+                    const exits = modal.querySelectorAll("[data-exit-button]");
+                    exits.forEach(function (exit) {
+                        exit.addEventListener("click", function (event) {
+                            event.preventDefault();
+                            modal.classList.remove("phpdocumentor-modal__open");
+                        });
+                    });
+                });
+            });
+        })();
+    </script>
+
+    </article>
+                                </section>
+                <section class="phpdocumentor-on-this-page__sidebar">
+                                
+    <section class="phpdocumentor-on-this-page__content">
+        <strong class="phpdocumentor-on-this-page__title">On this page</strong>
+
+        <ul class="phpdocumentor-list -clean">
+            <li class="phpdocumentor-on-this-page-section__title">Table Of Contents</li>
+            <li>
+                <ul class="phpdocumentor-list -clean">
+                                                            <li><a href="classes/Corax-Common-CoraxDictionary.html#toc-properties">Properties</a></li>
+                                                        </ul>
+            </li>
+            
+                            <li class="phpdocumentor-on-this-page-section__title">Properties</li>
+                <li>
+                    <ul class="phpdocumentor-list -clean">
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_command_names">$command_names<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_command_spaces">$command_spaces<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_command_splits">$command_splits<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_command_truncates">$command_truncates<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_context_types">$context_types<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_errors">$errors<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_file_exts">$file_exts<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_hex_file_headers">$hex_file_headers<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_html_attrs">$html_attrs<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_html_paired_tags">$html_paired_tags<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_html_single_tags">$html_single_tags<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_http_protocol">$http_protocol<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_js_events">$js_events<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_quotes">$quotes<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_signals">$signals<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_space_chars">$space_chars<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_special_chars">$special_chars<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_special_numbers">$special_numbers<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_sql_chars">$sql_chars<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_sql_keywords">$sql_keywords<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_status_code_msg">$status_code_msg<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_xss_chars">$xss_chars<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                                    <li><a href="classes/Corax-Common-CoraxDictionary.html#property_xss_keywords">$xss_keywords<a href="classes/Corax-Common-CoraxDictionary.html"></li>
+                                            </ul>
+                </li>
+            
+                    </ul>
+    </section>
+
+                </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="classes/Corax-Common-CoraxDictionary.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

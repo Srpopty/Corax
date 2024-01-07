@@ -1,0 +1,45 @@
+{
+    "name": "srpopty/corax",
+    "version": "0.0.1",
+    "type": "project",
+    "description": "A PHP application vulnerability fuzzing framework.",
+    "author": [
+        {
+            "name": "Srpopty",
+            "email": "srpopty@outlook.com",
+            "homepage": "https://srpopty.github.io",
+            "role": "Developer"
+        }
+    ],
+    "keywords": [
+        "php",
+        "extendable",
+        "security",
+        "fuzzer",
+        "framework"
+    ],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Srpopty",
+            "email": "srpopty@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "nikic/php-parser": "^4.14",
+        "szymach/c-pchart": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Corax\\": "src"
+        }
+    },
+    "bin": [
+        "bin/corax"
+    ],
+    "support": {
+        "email": "srpopty@outlook.com",
+        "source": "https://github.com/srpopty/Corax"
+    }
+}
